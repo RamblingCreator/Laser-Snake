@@ -19,6 +19,9 @@ public class SnakeScore implements Comparable {
       name = nameIn;
    }
    
+   // Compares this SnakeScore with another SnakeScore
+   // Parameters:
+   //    Object o - the SnakeScore it's being compared to
    public int compareTo (Object o) {
       SnakeScore s = (SnakeScore)o;
       return this.score - s.score;
